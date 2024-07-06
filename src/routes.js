@@ -1,13 +1,13 @@
-import { BrowserRouter, Routes, Route} from "react-router-dom"
-import Inicio from "./paginas/Inicio"
-import SobreMim from "./paginas/SobreMim"
-import Menu from "./componentes/Menu"
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Inicio from "./paginas/Inicio";
+import SobreMim from "./paginas/SobreMim";
+import Menu from "./componentes/Menu";
 
 //console.log(window.location);
 
 //const pagina = window.location.pathname==='/'? <Inicio/>:<SobreMim/>
 
-function App() {
+function AppRoutes() {
   return (
     <BrowserRouter>
     <Menu/>
@@ -20,4 +20,4 @@ function App() {
   )
 }
 
-export default App;
+export default AppRoutes;

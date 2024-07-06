@@ -13,6 +13,10 @@
     text-decoration: none;
 }
 
+.linkDestacado {
+    text-decoration: underline;
+}
+
 @media (max-width: 744px) {
     .navegacao {
         height: 72px;
