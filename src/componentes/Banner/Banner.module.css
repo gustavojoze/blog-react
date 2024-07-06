@@ -1,3 +1,9 @@
+:root{
+    --azul-escuro:#041833;
+    --branco:#FFFFFF;
+    --fonte-secundaria:#1875E8;
+}
+
 .banner {
     padding: 3rem 7.5rem 6.25rem;
     background-color: var(--azul-escuro);
