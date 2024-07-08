@@ -6,6 +6,7 @@ import Rodape from "componentes/Rodape";
 import PaginaPadrao from "componentes/PaginaPadrao";
 import Post from "paginas/Post";
 import NaoEncontrado from "paginas/NaoEncontrada";
+import ScrollToTop from "componentes/ScrollToTop";
 
 //console.log(window.location);
 
@@ -14,6 +15,7 @@ import NaoEncontrado from "paginas/NaoEncontrada";
 function AppRoutes() {
   return (
     <BrowserRouter>
+    <ScrollToTop/>
     <Menu/>
       
       <Routes>

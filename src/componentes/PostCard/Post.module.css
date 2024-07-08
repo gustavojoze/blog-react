@@ -19,14 +19,17 @@
 .capa {
     width: 100%;
 }
-
+ul>li{
+    text-decoration: none;
+}
 .titulo {
     font-family: var(--fonte-secundaria);
     font-size: 1.25rem;
-    color: var(--azul-escuro);
     line-height: 1.75rem;
     margin: 1.5rem 0 1.75rem;
+    text-decoration: none;
 }
+
 
 .botaoLer {
     display: inline-block;
