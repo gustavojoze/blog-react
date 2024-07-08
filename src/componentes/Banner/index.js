@@ -10,7 +10,7 @@ export default function Banner(){
                     Olá, mundo
                 </h1>
                 <p className={styles.paragrafo}>
-                    Prazer, meu nome é Gustavo José. Bem vindo ao meu blog criado em React usando o react-router-dom do React.
+                    Prazer, meu nome é Gustavo José. Bem vindo ao meu blog de tecnologia criado em React, veja algumas curiosidades das tecnologias mais famosas do mercado.
                 </p>
             </div>
             <div className={styles.imagens}>
