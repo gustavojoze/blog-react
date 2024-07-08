@@ -26,7 +26,7 @@ export default function NaoEncontrado(){
             <div 
                  className={styles.botaoContainer}
                  //-1 significa ir para uma pagina anterior
-                 onClick={()=>navegar("-1")}
+                 onClick={()=>navegar("/")}
             >
                 <BotaoPrincipal tamanho="lg">
                     Voltar

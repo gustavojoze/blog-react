@@ -3,7 +3,7 @@ import Inicio from "./paginas/Inicio";
 import SobreMim from "./paginas/SobreMim";
 import Menu from "./componentes/Menu";
 import Rodape from "componentes/Rodape";
-import PaginaPadrao from "componentes/paginaPadrao";
+import PaginaPadrao from "componentes/PaginaPadrao";
 import Post from "paginas/Post";
 import NaoEncontrado from "paginas/NaoEncontrada";
 
@@ -20,9 +20,9 @@ function AppRoutes() {
       <Route path="/" element={<PaginaPadrao/>}>
         <Route path="/" element={<Inicio/>}/>
         <Route path="/sobremim" element={<SobreMim/>}/>
-        <Route path="posts/:id" element={<Post/>}/>
       </Route>
         
+        <Route path="posts/:id" element={<Post/>}/>
         <Route path="*" element={<NaoEncontrado/>}/>
       </Routes>
 
