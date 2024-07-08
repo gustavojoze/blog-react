@@ -10,7 +10,7 @@ export default function Banner(){
                     Olá, mundo
                 </h1>
                 <p className={styles.paragrafo}>
-                    Prazer, meu nome é Gustavo José. Bem vindo ao meu blog criado em React para aprender sobre o Hoock do React useLocation.
+                    Prazer, meu nome é Gustavo José. Bem vindo ao meu blog criado em React usando o react-router-dom do React.
                 </p>
             </div>
             <div className={styles.imagens}>
