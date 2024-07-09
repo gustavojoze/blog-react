@@ -4,7 +4,7 @@ import { Route, useParams, Routes } from "react-router-dom"
 import posts from "json/posts.json"
 import PostModelo from "componentes/PostModelo";
 import NaoEncontrado from 'paginas/NaoEncontrada';
-import PaginaPadrao from 'componentes/PaginaPadrao';
+import PaginaPadrao from "componentes/PaginaPadrao";
 import styles from "./Post.module.css"
 import PostCard from 'componentes/PostCard';
 
